@@ -1,0 +1,72 @@
+body {
+  background-color: #FBB03B;
+  height: 100vh;
+}
+
+.burger-menu {
+  background-color: #138073;
+  right: 1.25rem;
+  top: 1.25rem;
+}
+
+.burger-menu-line {
+  background-color: white;
+}
+
+input {
+  width: 600px;
+  border: 1px solid black;
+}
+
+::-webkit-input-placeholder {
+  color: #138073;
+  margin-right: 30px;
+}
+
+:-ms-input-placeholder {
+  color: #138073;
+  margin-right: 30px;
+}
+
+::-ms-input-placeholder {
+  color: #138073;
+  margin-right: 30px;
+}
+
+::placeholder {
+  color: #138073;
+  margin-right: 30px;
+}
+
+.container {
+  height: 100vh;
+  min-width: 100vw;
+}
+
+.title-text {
+  font-size: 36px;
+  color: #138073;
+  font-weight: 600;
+}
+
+label {
+  font-size: 16px;
+  color: #138073;
+}
+
+.btn {
+  width: 150px;
+  height: 50px;
+  background-color: #39B69F;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 50px;
+  border: 1px solid white;
+}
+
+@media (max-width: 768px) {
+  input {
+    width: 200px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

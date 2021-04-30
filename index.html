@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="md:text-center">
+      <div
+        class="burger-menu cursor-pointer rounded-full w-12 lg:w-20 h-12 lg:h-20 px-3 py-4 lg:px-4 lg:py-6 absolute top-5 right-5 flex flex-col justify-between"
+      >
+        <div class="burger-menu-line h-1 lg:h-1"></div>
+        <div class="burger-menu-line h-1 lg:h-1"></div>
+        <div class="burger-menu-line h-1 lg:h-1"></div>
+      </div>
+			<div class="container flex flex-col flex-wrap content-center justify-center items-center text-center">
+				<h1 class="title-text">Jelentkezés</h1>
+				<form class="flex flex-col flex-wrap content-center justify-center w-96">
+					<input class="mt-8 h-20" type="text" placeholder="Név">
+					<input class="mt-8 h-20" type="email" placeholder="E-mail cím">
+					<input class="mt-8 h-20" type="phone" placeholder="Telefonszám">
+					<input class="mt-8" type="checkbox" id="aszf">
+					<label class="label-text" for="aszf"> Az Általános szerződési feltételeket elolvastam és elfogadom!</label>
+				</form>
+				<button class="btn">Elküld</button>
+			</div>
+    </div>
+  </body>
+</html>
